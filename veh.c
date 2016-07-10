@@ -14,7 +14,7 @@ int main()
 {
 int n;
 char from='X',cache='Y',to='Z';
-printf("enter nio of disk:");
+printf("enter no of disk:");
 scanf("%d",&n);
 hanoi(n,from,cache,to);
 return 0;
